@@ -1,0 +1,41 @@
+.head-items {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.head-title {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.head-title img {
+  margin-right: 10px;
+  width: 40px;
+  fill: green;
+}
+
+.head-links {
+  /* width: 50%; */
+  display: flex;
+}
+
+.head-links a {
+  border: 2px solid black;
+  margin-right: 10px;
+  padding: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.head-links a img {
+  height: 15px;
+  width: 15px;
+}
+
+.search {
+  border: 2px solid rgb(36, 36, 83);
+  width: 100px;
+}
